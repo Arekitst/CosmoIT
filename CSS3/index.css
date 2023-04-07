@@ -47,7 +47,8 @@
 	width: 300px;
 	height: 500px;
 }
-.btn {
+
+.btn{
 	height: 50px;
 	width: 299px;
 	font-size: 20px;
@@ -55,15 +56,14 @@
 	border: solid 2px gray;
 	color: gray;
 }
-.btn:hover {
-	animation: 1s background-color
-	animation-fill-mode: both;
+.btn2 {
+	height: 50px;
+	width: 299px;
+	font-size: 20px;
+	background-color: rgb(240, 248, 255, 0);
+	border: solid 2px gray;
 }
 
-@keyframes background-color{
-	to {
-		background-color: black;
-	}
-}
+
 
 
